@@ -31,6 +31,6 @@ def process_image(img_path):
     cv2.destroyAllWindows()
 
 if __name__ == "__main__":
-    ### buka/jalankan code ini dari file MagangBayu2024-OpenCV (sesuaikan direktori dibawah jika perlu)
+    ### buka/jalankan code ini dari direktori MagangBayu2024-OpenCV (ubah direktori dibawah jika perlu)
     image_path = 'tugas/tugas2/tugas2.jpg'
     process_image(image_path)

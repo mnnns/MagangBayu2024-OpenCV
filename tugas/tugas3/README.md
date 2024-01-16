@@ -1,3 +1,3 @@
 # Deskripsi Tugas
 
-Untuk tugas tiga kalian bebas mau buat apa. Sesuai kreativitas kalian masing masing mau buat apa. Kalau mau buat object detection boleh tapi pakai dataset kalian sendiri :)
+Membuat program computer vision sederhana yang mampu mendeteksi wajah manusia dan menandainya dengan bounding box yang warna warni

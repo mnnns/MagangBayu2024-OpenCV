@@ -4,7 +4,7 @@ import numpy as np
 lower_color = np.array([80, 20, 20])
 upper_color = np.array([100, 255, 255])
 
-### buka/jalankan code ini dari file MagangBayu2024-OpenCV (sesuaikan direktori dibawah jika perlu)
+### buka/jalankan code ini dari file MagangBayu2024-OpenCV (ubah direktori dibawah jika perlu)
 image_path = 'tugas/tugas1/tugas1.png'
 img = cv2.imread(image_path)
 
