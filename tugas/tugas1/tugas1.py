@@ -4,7 +4,7 @@ import numpy as np
 lower_color = np.array([80, 20, 20])
 upper_color = np.array([100, 255, 255])
 
-### buka/jalankan code ini dari file MagangBayu2024-OpenCV (sesuaikan direktori jika perlu)
+### buka/jalankan code ini dari file MagangBayu2024-OpenCV (sesuaikan direktori dibawah jika perlu)
 image_path = 'tugas/tugas1/tugas1.png'
 img = cv2.imread(image_path)
 
@@ -17,7 +17,7 @@ if len(contours) != 0:
     for contour in contours:
         if cv2.contourArea(contour) > 600:
             x, y, w, h = cv2.boundingRect(contour)
-            cv2.rectangle(img, (x, y), (x+w, y+h), (0, 255, 255), 2)
+            cv2.rectangle(img, (x, y), (x+w, y+h), (128, 128, 128), 2)
 
 cv2.imshow("Color Mask", color_mask)
 cv2.imshow("Annotated Image", img)
